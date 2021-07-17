@@ -161,14 +161,18 @@ body {
   width: 20px;
   border-radius: 50%;
   background-color: #f00;
-  opacity: 0;
+  opacity: 1;
 }
 
 .dice-row {
   display: flex;
+  width: 100%;
   justify-content: space-around;
 }
 
+.nr {
+  opacity: 0;
+}
 /* Responsive Design */
 
 @media screen and (max-width: 1030px) {

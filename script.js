@@ -129,6 +129,7 @@ const resetGame = function () {
   player1Section.classList.remove('winner');
   player2Section.classList.remove('winner');
   clearDice();
+  showNumberOnDice(six);
   won = 0;
   for (let i = 0; i < 2; i++) {
     currentScores[i].textContent = 0;
